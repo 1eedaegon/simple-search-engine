@@ -86,13 +86,8 @@ A simple benchmark was performed to evaluate some results:
 ##### Results
 - Index building time: 22.72 sec
 - Memory usage: around 362 MB
-- Average time of query search: 0.05 sec
-
-##### Console output
-```
-2014-06-23 16:18:55,079 INFO [Main] Initializing ...
-2014-06-23 16:19:01,551 INFO [Twitter] Function = load_tweets, Elapsed Time = 6.47 sec
-2014-06-23 16:19:06,373 INFO [Twitter] Function = load_tweets_and_load_index, Elapsed Time = 11.29 sec
-2014-06-23 16:19:06,373 INFO [Main] Initialized. 79,331 docs loaded.
-Enter a query, or enter 'quit' to quit: 
-```
+- File size:
+ - athletes.tweets: 8.4 MB
+ - index.p: 10 MB
+ - rank.p: 63 MB
+- Query time: 0.01 ~ 0.8 sec

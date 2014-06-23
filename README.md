@@ -86,4 +86,8 @@ A simple benchmark was performed to evaluate some results:
 ##### Results
 - Index building time: 22.72 sec
 - Memory usage: around 362 MB
+- File size:
+ - athletes.tweets: 8.4 MB
+ - index.p: 10 MB
+ - rank.p: 63 MB
 - Average time of query search: 0.05 sec

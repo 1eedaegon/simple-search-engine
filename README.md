@@ -66,6 +66,7 @@ The current implementation follows [Google Style Python]
 #### Contents:
  - `src/indexer.py`: Module containing index implementation
  - `src/searcher.py`: Module containing search implementation
+ - `src/ranker.py`: Module containing rank implementation
  - `src/twitter.py`: Module containing search abstraction for the context of tweets
  - `index.py`: Command line interface for tweets index
  - `search.py`: Command line interface for tweets search

@@ -6,7 +6,7 @@
 - `term` – a single word in a query.
 
 ### Goal
-Given a set of Author and Title data from several books, implement a `tf*idf` index in memory which does the following:
+Given a set of tweet and screen name data from several tweets, implement a `tf*idf` index in memory which does the following:
 - Read English text data into the index;
 - For a given `query`, output the top 10 results ranked by their `tf*idf` scores.
 

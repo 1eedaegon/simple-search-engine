@@ -82,13 +82,13 @@ A simple benchmark was performed to evaluate some results:
 
 ##### Parameters
 - Machine: Macbook Pro 15" 2.3 GHz Intel Core i7
-- Dataset: 79,331 documents and 122,466 terms in vocabulary
+- Dataset: 100,000 documents and 148,843 terms in vocabulary
 
 ##### Results
-- Index building time: 22.72 sec
+- Index building time: 28.51 sec
 - Memory usage: around 362 MB
 - File size:
- - athletes.tweets: 8.4 MB
- - index.p: 10 MB
- - rank.p: 63 MB
+ - athletes.tweets: 11.1 MB
+ - index.p: 13.9 MB
+ - rank.p: 84.1 MB
 - Query time: depends on query results. around 0.01 ~ 0.8 sec

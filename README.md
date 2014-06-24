@@ -91,4 +91,4 @@ A simple benchmark was performed to evaluate some results:
  - athletes.tweets: 8.4 MB
  - index.p: 10 MB
  - rank.p: 63 MB
-- Query time: 0.01 ~ 0.8 sec
+- Query time: depends on query results. around 0.01 ~ 0.8 sec

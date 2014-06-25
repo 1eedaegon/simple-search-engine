@@ -38,6 +38,7 @@ Enter a query, or enter 'quit' to quit: crossfit
 2014-06-23 14:50:11,777 INFO [Twitter] Function = search_tweets, Elapsed Time = 0.03 sec
 1,273 results.
 ```
+![sample output](http://media.tumblr.com/a3a131c37799185bd5a6cd1d4509679c/tumblr_inline_n7nje9JNFH1qzgoac.png)
 
 ### Code
 You may write your solution in either Python, Java, C#, C, or C++. If you need to make any assumptions in your code, clearly document them in the comments. On startup, your code should read the given data file, then prompt the user for queries in a loop (reading from stdin), outputting the search results in a reasonable text format.

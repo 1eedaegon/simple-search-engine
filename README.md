@@ -37,17 +37,6 @@ $ python search.py
 Enter a query, or enter 'quit' to quit: crossfit
 2014-06-23 14:50:11,777 INFO [Twitter] Function = search_tweets, Elapsed Time = 0.03 sec
 1,273 results.
-
-score: 0.529196, docid: 6562, tweet: What began with 209,000 athletes during the crossfit Games Open is now down to just 86: http://t.co/IlI1PmFdH0. #crossfit	@crossfit
-score: 0.520133, docid: 245, tweet: crossfit Named - Kristan Clever  Valley crossfit  :	@Cleverhandz
-score: 0.520133, docid: 253, tweet: crossfit Named - Kristan Clever  Valley crossfit :	@Cleverhandz
-score: 0.520133, docid: 259, tweet: crossfit Named - Kristan Clever  Valley crossfit :	@Cleverhandz
-score: 0.520133, docid: 261, tweet: crossfit Named - Kristan Clever  Valley crossfit :	@Cleverhandz
-score: 0.520133, docid: 262, tweet: crossfit Named - Kristan Clever  Valley crossfit :	@Cleverhandz
-score: 0.520133, docid: 275, tweet: crossfit Named - Kristan Clever  Valley crossfit :	@Cleverhandz
-score: 0.520133, docid: 295, tweet: crossfit Named - Kristan Clever  Valley crossfit :	@Cleverhandz
-score: 0.520133, docid: 323, tweet: crossfit Named - Kristan Clever  Valley crossfit :	@Cleverhandz
-score: 0.520133, docid: 326, tweet: crossfit Named - Kristan Clever  Valley crossfit :	@Cleverhandz
 ```
 
 ### Code

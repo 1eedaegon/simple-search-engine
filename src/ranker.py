@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 import scipy.sparse as sp
+import scipy.sparse.sparsetools as sptools
 import logging
 import time
 
@@ -88,7 +89,7 @@ class Rank(object):
 
         n_terms = len(self.vocabulary)
         n_docs = len(tweets)
-        ft_matrix = sp.lil_matrix((n_docs, n_terms), dtype=np.float16)
+        ft_matrix = sp.lil_matrix((n_docs, n_terms), dtype=np.dtype(float))
 
         logging.info("[Ranker] Vocabulary assembled with terms count %s, docs count %s" \
             % ("{:,}".format(n_terms), "{:,}".format(n_docs)))
@@ -123,7 +124,7 @@ class Rank(object):
         n_nzeros = np.where(norm > 0)
         norm[n_nzeros] = 1.0 / np.sqrt(norm[n_nzeros])
         norm = np.array(norm).T[0]
-        sp.sparsetools.csr_scale_rows(self.tf_idf_matrix.shape[0],
+        sptools.csr_scale_rows(self.tf_idf_matrix.shape[0],
                                       self.tf_idf_matrix.shape[1],
                                       self.tf_idf_matrix.indptr,
                                       self.tf_idf_matrix.indices,
